@@ -12,7 +12,7 @@ import documents.ccda
 import parsers.ccda
 
 
-class BlueButton(object):
+class ccda(object):
     def __init__(self, source, options=None):
         type, parsed_document, parsed_data = None, None, None
 

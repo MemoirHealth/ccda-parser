@@ -10,7 +10,7 @@ Created on Mon Jul  2 21:23:37 2018
 Parser for any freetext section (i.e., contains just a single <text> element)
 """
 from ... import core
-from bluebutton.core import wrappers
+from ccda.core import wrappers
 
 
 def free_text(ccda, section_name):
