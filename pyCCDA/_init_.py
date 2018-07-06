@@ -12,7 +12,7 @@ import documents.ccda
 import parsers.ccda
 
 
-class ccda(object):
+class CCDA(object):
     def __init__(self, source, options=None):
         type, parsed_document, parsed_data = None, None, None
 
